@@ -1,0 +1,57 @@
+.bold{
+    font-weight: 700;
+}
+.number__page{
+    margin: 5px 10px;
+}
+
+.preloader{
+    width: 300px;
+    height: auto;
+    margin: 0 auto
+}
+
+.paginator{
+   background-color: rgba(69, 96, 155, 0.803);
+   color: wheat;
+   margin: 0 auto;
+   width: 65%;
+   text-align: center;
+   padding: 8px;
+   border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}  
+
+.btn{
+    padding: 3px 15px;
+    background-color: rgba(69, 96, 155);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-color: rgb(49, 66, 100);
+    color: wheat;
+}
+@media (max-width: 1280px) {
+    .paginator{
+        font-size: 21px;
+        width: 90%;
+    }
+    .btn{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 740px) {
+    .paginator{
+        width: 96%;
+    }
+}
+
+@media (max-width: 1280px) {}
+
+@media (max-width: 1280px) {}

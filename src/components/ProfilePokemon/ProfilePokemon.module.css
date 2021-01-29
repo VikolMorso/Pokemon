@@ -1,0 +1,56 @@
+.main {
+    display: flex;
+    margin: 5px;
+    color: wheat;
+    margin-bottom: 70px;
+}
+
+.photo__pokemon {
+    padding: 20px;
+    width: 30%;
+}
+
+.photo {
+    width: 90%;
+    position: sticky;
+    top: 40px;
+    
+}
+
+.about__pokemon {
+    background-color: rgba(69, 96, 155, 0.803);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    flex-grow: 1;
+    padding: 20px 100px
+}
+
+@media (max-width: 640px) {
+    .main{
+        display: block;
+        margin: 5px auto;
+    }
+    .photo__pokemon{
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .photo__pokemon{
+    }
+    .photo{
+        width: 130%;
+    }
+}
+
+@media (max-width: 380px) {
+    .about__pokemon{
+        text-align: left;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 1280px) {}

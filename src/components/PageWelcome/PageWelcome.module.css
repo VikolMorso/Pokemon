@@ -1,0 +1,19 @@
+.main{
+    margin: 10px;
+    padding: 15px 80px ;
+    background-color: rgba(69, 96, 155, 0.803);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    text-align: center;
+    color: wheat;
+
+}
+
+@media (max-width: 410px){
+    .main{
+        padding: 20px;
+    }
+}

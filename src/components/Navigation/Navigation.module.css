@@ -1,0 +1,41 @@
+.main{
+    margin: 20px 0;
+    background-color: rgba(69, 96, 155, 0.803);
+    padding: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: larger;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.nav{}
+
+.nav__menu{
+    display: flex;
+    list-style: none ;
+    justify-content: space-evenly;
+    padding: 0;
+}
+.active{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width: 1280px) {
+    .main{
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 720px) {
+    .main{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1280px) {}
+
+@media (max-width: 1280px) {}
